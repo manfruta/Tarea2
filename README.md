@@ -62,4 +62,31 @@ Se ocupa el archivo list_topic.sh para validar que los topicos se crearon de for
 ```
 zsh list_topic.sh
 ```
+# Ejecutar API Rest
+```
+python3 app.py
+```
+Se ocupa INSOMNIA el cual sirve para testear los metodos GET y POST del HTTP request, donde la direcion local host es:
 
+```
+http://localhost:5000/nuevaOrden
+```
+Enviando por metodos POST se tiene un JASON con las siguientes caracteristicas
+
+```
+{
+	"nombre cocinero" : "marze",
+	"correo cocinero" : "ma.luengo3@gmail.com",
+	"nombre vendedor" : "Diego",
+	"correo vendedor" : "diegoskiwi@gmail.com",
+	"cantidad de sopaipas" : 15
+}
+```
+Luego para crear el resumen diario se ejecuta un metodo GET en la dirección
+```
+localhost:5000/resumenDiario
+```
+Por ultimo para enviar el correo se ejecuta un metodo GET en la dirección
+```
+localhost:5000/MandarEmail
+```
