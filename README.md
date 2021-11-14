@@ -2,6 +2,8 @@
 
 En esta tarea se estudiran conceptos relacionados al curso Sistemas distribuidos, implementando un sistema de streaming de eventos distribuidos usando Apache Kafka.
 
+Integrantes: Diego Venegas, Andres Daille, Marcelo Luengo.
+
 
 # La instalacion de Kafka
 Cear carpeta para trabajar:
