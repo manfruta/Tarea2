@@ -44,8 +44,6 @@ pip3 install flask
 
 
 
-
-
 Se destaca que se tiene que estar dentro del archivo kafka_home.sh, por consiguiente se levantan los servicios de Zookeeper, donde se ejecuta el archivo Zookeeper_run y se corre con el siguiente comando:
 ```
 zsh zookeeper_run.sh
@@ -55,5 +53,13 @@ Posterior a lo anterior en otra terminal, se tiene que ejecutrar el archivo kafk
 ```
 zsh kafka_run.sh
 ```
+Al tener el kafka activado, ocuparemos el archivo archivo create_topics.sh para los topicos de las ordenes y daily summary, el cual se corre con:
 
-Luego, en otra ventana de la terminal, iniciamos los servicios de kafka, para ello, ejecutamos el archivo kafka_run.sh y lo dejamos corriendo.
+```
+zsh create_topics.sh
+```
+Se ocupa el archivo list_topic.sh para validar que los topicos se crearon de forma correcta, se corre con:
+```
+zsh list_topic.sh
+```
+
