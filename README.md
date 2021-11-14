@@ -19,8 +19,41 @@ wget https://downloads.apache.org/kafka/2.8.1/kafka_2.13-2.8.1.tgz
 tar -xzf kafka_2.13-2.8.1.tgz 
 ```
 
+# La instalacion de Python version 3.8.10
+
+```
+sudo apt install python3.8.10
+```
+```
+sudo apt-get -y install python3-pip
+```
+```
+sudo pip3 install kafka-python
+```
+
+
+
+# La instalacion de Flask para la Api
+
+
+```
+pip3 install flask
+```
+
+
+
+
+
+
+
 Se destaca que se tiene que estar dentro del archivo kafka_home.sh, por consiguiente se levantan los servicios de Zookeeper, donde se ejecuta el archivo Zookeeper_run y se corre con el siguiente comando:
 ```
 zsh zookeeper_run.sh
 ```
+Posterior a lo anterior en otra terminal, se tiene que ejecutrar el archivo kafka_run.sh, el cual se corre con el siguiente comando:
 
+```
+zsh zookeeper_run.sh
+```
+
+Luego, en otra ventana de la terminal, iniciamos los servicios de kafka, para ello, ejecutamos el archivo kafka_run.sh y lo dejamos corriendo.
