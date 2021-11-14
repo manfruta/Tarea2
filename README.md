@@ -53,7 +53,7 @@ zsh zookeeper_run.sh
 Posterior a lo anterior en otra terminal, se tiene que ejecutrar el archivo kafka_run.sh, el cual se corre con el siguiente comando:
 
 ```
-zsh zookeeper_run.sh
+zsh kafka_run.sh
 ```
 
 Luego, en otra ventana de la terminal, iniciamos los servicios de kafka, para ello, ejecutamos el archivo kafka_run.sh y lo dejamos corriendo.
