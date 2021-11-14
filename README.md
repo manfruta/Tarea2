@@ -19,3 +19,8 @@ wget https://downloads.apache.org/kafka/2.8.1/kafka_2.13-2.8.1.tgz
 tar -xzf kafka_2.13-2.8.1.tgz 
 ```
 
+Se destaca que se tiene que estar dentro del archivo kafka_home.sh, por consiguiente se levantan los servicios de Zookeeper, donde se ejecuta el archivo Zookeeper_run y se corre con el siguiente comando:
+```
+zsh zookeeper_run.sh
+```
+
