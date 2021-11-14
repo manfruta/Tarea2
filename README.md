@@ -42,7 +42,7 @@ pip3 install flask
 
 
 
-
+#Instancia
 
 Se destaca que se tiene que estar dentro del archivo kafka_home.sh, por consiguiente se levantan los servicios de Zookeeper, donde se ejecuta el archivo Zookeeper_run y se corre con el siguiente comando:
 ```
